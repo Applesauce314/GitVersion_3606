@@ -3,15 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferencedProject", "ReferencedProject\ReferencedProject.csproj", "{877D94BF-1057-419D-91E2-57F32B8C3A7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferencedProject", "ReferencedProject\ReferencedProject.csproj", "{877D94BF-1057-419D-91E2-57F32B8C3A7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtherProject", "OtherProject\OtherProject.csproj", "{2F63455C-5D06-4583-9D0D-F55C33B65F89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtherProject", "OtherProject\OtherProject.csproj", "{2F63455C-5D06-4583-9D0D-F55C33B65F89}"
 	ProjectSection(ProjectDependencies) = postProject
 		{877D94BF-1057-419D-91E2-57F32B8C3A7F} = {877D94BF-1057-419D-91E2-57F32B8C3A7F}
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEF0F33B-E4B1-44D2-B89B-61C82D45FEAF}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
